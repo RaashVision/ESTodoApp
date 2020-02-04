@@ -17,6 +17,8 @@ import 'package:Etqa_smile/viewmodels/search_image_viewmodel.dart';
 
 import 'interfaces/i_flashlight.dart';
 import 'interfaces/i_repository.dart';
+import 'viewmodels/es_home_viewmodel.dart';
+import 'viewmodels/es_todo_viewmodel.dart';
 
 GetIt locator = GetIt.I;
 void setupLocator() {
@@ -37,6 +39,7 @@ locator.registerFactory(()=>SearchImageViewModel());
  locator.registerSingleton(new Services());
 
  locator.registerLazySingleton(() => NavigationService());
-
+locator.registerFactory(() =>   ESTodoViewModel());
+locator.registerFactory(() =>   ESHomeViewModel());
   
 }

@@ -8,6 +8,7 @@ import 'package:Etqa_smile/views/widgets/testtabsliverapp.dart';
 
 import 'locator.dart';
 import 'services/navigation_service.dart';
+import 'views/pages/es_home_view.dart';
 import 'views/pages/rv_home_view.dart';
 
 
@@ -36,9 +37,10 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           
           primaryColor: PrimaryColor,
+          floatingActionButtonTheme: FloatingActionButtonThemeData( backgroundColor: FloatingButtonPrimaryColor)
         
       ),
-         home:MyHomePage()
+         home:ESHomeView()
          
          
          
