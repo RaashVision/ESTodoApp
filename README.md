@@ -1,6 +1,6 @@
 # ESmile TodoApp
 
-This is the ESTodo app built in Flutter. Use Provider as State Management. Have local storage to store all your TodoList
+This is the ESTodo app built in Flutter. Use Provider as State Management. Have local storage to store all your TodoList. Only tested with Android. IOS not yet test
 
 ## Screenshots
 
