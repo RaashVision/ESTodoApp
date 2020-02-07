@@ -28,10 +28,12 @@ Library used
   - ImageGrid - https://pub.dev/documentation/flutter_staggered_grid_view/latest/
   - Provider -https://pub.dev/documentation/provider/latest/
   - FlushBar - https://pub.dev/packages/flushbar
-  
+
+Unit Testing
+1. Only add unit testing for validator function
   
 TODO (Not yet done)
-1. Unit Testing
+1. Unit Testing for viewmodels
 2. Integration Testing
 3. CI
 
