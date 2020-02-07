@@ -1,7 +1,4 @@
 
-import 'package:ESmile/enums/apiurl.dart';
-import 'package:ESmile/enums/enviroment.dart';
-
 class Settings{
 
 //Date format fpr Home
