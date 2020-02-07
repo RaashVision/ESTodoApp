@@ -27,7 +27,7 @@ class ESAddUpdateTodoViewModel extends BaseViewModel{
 
    }
 
-   void OnSaveAsync(String title, String startdatestring, String enddateString) async
+   void onSaveAsync(String title, String startdatestring, String enddateString) async
    {
      try{
      setState(viewState: ViewState.Busy);
@@ -68,7 +68,7 @@ class ESAddUpdateTodoViewModel extends BaseViewModel{
 
 
     //Update the database based ion id
-    void OnUpdateAsync(ESTodoModel olddata,String title, String startdatestring, String enddateString) async{
+    void onUpdateAsync(ESTodoModel olddata,String title, String startdatestring, String enddateString) async{
 
     try{
      setState(viewState: ViewState.Busy);
@@ -85,19 +85,20 @@ class ESAddUpdateTodoViewModel extends BaseViewModel{
 
      var result = await iRepository.updateTodoRepo(olddata);
 
+    //If result is success
     if(result.stateStatus == ViewState.Idle){
 
       //Add flushbar
 
-      //Then go back
+      //Then go back to previous page
       _navigationService.goBack();
     }
-
-     setState(viewState: ViewState.Idle);
+    //Refresh the UI
+     setState(viewState: result.stateStatus);
 
      }
      catch(e){
-       setState(viewState: ViewState.Idle);
+       setState(viewState: ViewState.Error);
      }
 
     }

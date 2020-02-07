@@ -11,12 +11,13 @@ import 'package:ESmile/constants/route_paths.dart' as routes;
 import 'package:ESmile/router.dart' as router;
 
 
-void main() async {
+void main() {
 
+  WidgetsFlutterBinding.ensureInitialized();
 
   //Dependecy injectiion
   setupLocator();
-  
+
   //This to lock the app in potrait mode. Only handle landscape 80%
     SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp])
     .then((_) {

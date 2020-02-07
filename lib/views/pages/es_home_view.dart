@@ -1,5 +1,6 @@
 import 'package:ESmile/constants/titles.dart';
 import 'package:ESmile/core/dynamic_ui_for_state.dart';
+import 'package:ESmile/enums/viewstate.dart';
 import 'package:ESmile/viewmodels/es_home_viewmodel.dart';
 import 'package:ESmile/views/shared/app_colors.dart' as prefix0;
 import 'package:flushbar/flushbar.dart';
@@ -40,6 +41,7 @@ class _ESHomeViewState extends State<ESHomeView> {
               IconButton(onPressed: () async{
 
                   //Delete all data
+                if(model.state == ViewState.Idle)
                    model.deleteALL();
 
 

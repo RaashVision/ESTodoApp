@@ -24,12 +24,12 @@ class ESTimeLeft extends StatelessWidget {
   Widget build(BuildContext context) {
 
 
-    final stream_ = Stream.periodic(Duration(minutes: 1), (i) => i);
     return BaseView<ESTimeLeftViewModel>(
          builder: (context, model, child) => 
 
+          //Use streambuilder to rebuild the layout ever one minute to show the time left
            StreamBuilder(
-            stream:stream_,
+            stream:Stream.periodic(Duration(minutes: 1), (i) => i),
             builder: (BuildContext context, AsyncSnapshot<int> snapshot) {
              
              String timeleft;
