@@ -11,7 +11,7 @@ String validatorTitle(String fullName) {
     }
 
     else if(fullName.length >Settings.maxlength){
-      return "Cannot more then 150 characters";
+      return "Cannot more then ${Settings.maxlength} characters";
     }
 
     else {
@@ -21,14 +21,16 @@ String validatorTitle(String fullName) {
 
   String validatorDate(DateTime rawdatetime) {
  try {
-    String datetime = rawdatetime.toString();
+    
 
-    if (datetime == null || datetime.isEmpty) {
+    if (rawdatetime == null) {
       return "Date cannot be empty!";
     }
 
+    String datetime = rawdatetime.toString();
+
    
-      var parsed = new DateFormat("dd-MM-yyyy").parse(datetime);
+    var parsed = new DateFormat("dd-MM-yyyy").parse(datetime);
 
       return null;
     }

@@ -3,8 +3,6 @@ import 'package:ESmile/interfaces/i_localdatabase.dart';
 import 'package:ESmile/interfaces/i_repository.dart';
 import 'package:ESmile/locator.dart';
 import 'package:ESmile/managers/stream_manager.dart';
-import 'package:ESmile/models/channel_message_model.dart';
-import 'package:ESmile/models/direct_message_model.dart';
 import 'package:ESmile/models/es_todo_model.dart';
 import 'package:ESmile/models/result.dart';
 

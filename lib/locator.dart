@@ -12,7 +12,6 @@ import 'package:ESmile/repository/repository.dart';
 import 'package:ESmile/services/services.dart';
 import 'package:ESmile/services/vibration_services.dart';
 import 'package:ESmile/utils/datetime_utils.dart';
-
 import 'interfaces/i_localdatabase.dart';
 import 'interfaces/i_repository.dart';
 import 'interfaces/i_validator.dart';
@@ -21,11 +20,8 @@ import 'viewmodels/es_home_viewmodel.dart';
 import 'viewmodels/es_todo_viewmodel.dart';
 
 GetIt locator = GetIt.I;
+
 void setupLocator() {
-
-
-
-
 //This file is for dependecies injection
  locator.registerLazySingleton<IRepository>(()=> new Repository());
  locator.registerSingleton(new DateTimeUtils());
