@@ -1,16 +1,16 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:Etqa_smile/enums/viewstate.dart';
-import 'package:Etqa_smile/interfaces/i_vibration.dart';
-import 'package:Etqa_smile/locator.dart';
-import 'package:Etqa_smile/services/services.dart';
+import 'package:ESmile/enums/viewstate.dart';
+import 'package:ESmile/interfaces/i_vibration.dart';
+import 'package:ESmile/locator.dart';
+import 'package:ESmile/services/services.dart';
 
 class BaseViewModel extends ChangeNotifier {
 
   bool _dispose = false;
   ViewState _state = ViewState.Idle;
-  Services services = locator<Services>();
+  //Services services = locator<Services>();
 
   ViewState get state => _state;
 

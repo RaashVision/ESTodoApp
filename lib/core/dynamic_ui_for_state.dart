@@ -1,5 +1,8 @@
+import 'package:ESmile/views/pages/es_empty_view.dart';
+import 'package:ESmile/views/pages/es_error_view.dart';
+import 'package:ESmile/views/shared/style.dart';
 import 'package:flutter/material.dart';
-import 'package:Etqa_smile/enums/viewstate.dart';
+import 'package:ESmile/enums/viewstate.dart';
 
 class DynamicUIBasedOnState extends StatefulWidget {
 
@@ -7,8 +10,9 @@ class DynamicUIBasedOnState extends StatefulWidget {
    Widget onMAinUI;
    Widget onInitUI;
    ViewState state;
+   VoidCallback onRetry;
 
-  DynamicUIBasedOnState({this.state,this.onLoadingUI :const CircularProgressIndicator(),this.onMAinUI,this.onInitUI :const CircularProgressIndicator()});
+  DynamicUIBasedOnState({this.state,this.onLoadingUI :const CircularProgressIndicator(),this.onMAinUI,this.onInitUI :const CircularProgressIndicator(),this.onRetry});
 
   @override
   _DynamicUIBasedOnStateState createState() => _DynamicUIBasedOnStateState();
@@ -41,13 +45,30 @@ class _DynamicUIBasedOnStateState extends State<DynamicUIBasedOnState> {
         case ViewState.Busy:
           currentUI = Stack(children: <Widget>[     
             widget.onMAinUI,
-            Center(child: widget.onLoadingUI),
+             //Container(color: Colors.black.withOpacity(2.0),)
+            //Center(child: widget.onLoadingUI),
+            Column(
+              mainAxisSize: MainAxisSize.max,
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: <Widget>[
+                Expanded(child: Container(color: Colors.black.withOpacity(0.4)))
+                
+              ],
+            )
 
           ]);
           break;
         case ViewState.Error:
         {
-          currentUI = widget.onMAinUI;
+          currentUI = ESErrorView(onRetry: widget.onRetry,);
+          break;
+        }
+        case ViewState.NoData:
+        {
+           currentUI = ESEmptyStateView();
+           
+
+         
           break;
         }
         case ViewState.NoInternet:

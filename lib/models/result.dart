@@ -1,4 +1,4 @@
-import 'package:Etqa_smile/enums/viewstate.dart';
+import 'package:ESmile/enums/viewstate.dart';
 
 class ResultAndStatus{
 

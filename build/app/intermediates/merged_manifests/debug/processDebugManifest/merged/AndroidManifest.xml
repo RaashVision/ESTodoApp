@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.Etqa_smile"
+    package="com.example.ESmile"
     android:versionCode="1"
     android:versionName="1.0.0" >
 
@@ -28,10 +28,10 @@
         android:name="io.flutter.app.FlutterApplication"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
-        android:icon="@mipmap/googlelens"
-        android:label="Etqa_smile" >
+        android:icon="@mipmap/wow"
+        android:label="ESmile" >
         <activity
-            android:name="com.example.Etqa_smile.MainActivity"
+            android:name="com.example.ESmile.MainActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
             android:hardwareAccelerated="true"
             android:launchMode="singleTop"
@@ -57,7 +57,7 @@
 
         <provider
             android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
-            android:authorities="com.example.Etqa_smile.flutter.image_provider"
+            android:authorities="com.example.ESmile.flutter.image_provider"
             android:exported="false"
             android:grantUriPermissions="true" >
             <meta-data
@@ -66,7 +66,7 @@
         </provider>
         <provider
             android:name="com.dataxad.fluttermailer.FlutterMailerFileProvider"
-            android:authorities="com.example.Etqa_smile.adv_provider"
+            android:authorities="com.example.ESmile.adv_provider"
             android:exported="false"
             android:grantUriPermissions="true" >
             <meta-data

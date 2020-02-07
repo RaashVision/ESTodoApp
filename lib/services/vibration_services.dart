@@ -1,4 +1,4 @@
-import 'package:Etqa_smile/interfaces/i_vibration.dart';
+import 'package:ESmile/interfaces/i_vibration.dart';
 import 'package:vibration/vibration.dart';
 
 class VibrationServices implements IVibration {

@@ -1,11 +1,11 @@
-import 'package:Etqa_smile/interfaces/i_flashlight.dart';
-import 'package:Etqa_smile/interfaces/i_imagepicker.dart';
-import 'package:Etqa_smile/interfaces/i_vibration.dart';
-import 'package:Etqa_smile/locator.dart';
+// import 'package:ESmile/interfaces/i_flashlight.dart';
+// import 'package:ESmile/interfaces/i_imagepicker.dart';
+// import 'package:ESmile/interfaces/i_vibration.dart';
+// import 'package:ESmile/locator.dart';
 
-class Services {
+// class Services {
 
-   IVibration i_vibrate = locator<IVibration>();
-   IFlashLight i_flashlight = locator<IFlashLight>();
-   IImagePicker i_imagepicker = locator<IImagePicker>();
-}
+//    IVibration i_vibrate = locator<IVibration>();
+//    IFlashLight i_flashlight = locator<IFlashLight>();
+//    IImagePicker i_imagepicker = locator<IImagePicker>();
+// }

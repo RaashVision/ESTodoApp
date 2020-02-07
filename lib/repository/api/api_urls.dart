@@ -1,4 +1,4 @@
-import 'package:Etqa_smile/settings.dart';
+import 'package:ESmile/settings.dart';
 
 class APIUrls{
 

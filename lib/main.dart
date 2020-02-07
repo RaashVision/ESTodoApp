@@ -1,15 +1,14 @@
 
+import 'package:ESmile/managers/dialog_manager.dart';
 import 'package:flutter/material.dart';
-import 'package:Etqa_smile/managers/lifecycle_manager.dart';
-import 'package:Etqa_smile/views/pages/home_camera_view.dart';
-import 'package:Etqa_smile/views/pages/rv_home_view_v2.dart';
-import 'package:Etqa_smile/views/shared/app_colors.dart';
-import 'package:Etqa_smile/views/widgets/testtabsliverapp.dart';
+import 'package:ESmile/managers/lifecycle_manager.dart';
+import 'package:ESmile/views/shared/app_colors.dart';
+import 'package:flutter/services.dart';
 
 import 'locator.dart';
 import 'services/navigation_service.dart';
-import 'views/pages/es_home_view.dart';
-import 'views/pages/rv_home_view.dart';
+import 'package:ESmile/constants/route_paths.dart' as routes;
+import 'package:ESmile/router.dart' as router;
 
 
 void main() async {
@@ -18,12 +17,16 @@ void main() async {
   //Dependecy injectiion
   setupLocator();
   
-    runApp(MyApp());
+  //This to lock the app in potrait mode. Only handle landscape 80%
+    SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp])
+    .then((_) {
+      runApp(new MyApp());
+    });
 }
 
 class MyApp extends StatelessWidget {
 
- 
+  final GlobalKey _key = new GlobalKey();
 
   // This widget is the root of your application.
   @override
@@ -32,16 +35,24 @@ class MyApp extends StatelessWidget {
 
    return LifeCycleManager(
       child: MaterialApp(     
-        title: 'EQ_SMILE',
+        title: 'ESMILE',
         navigatorKey: locator<NavigationService>().navigatorKey,
+        onGenerateRoute: router.generateRoute,
+        initialRoute: routes.HomeRoute,
+
+         builder: (context, widget) => Navigator(
+          onGenerateRoute: (settings) => MaterialPageRoute(
+              builder: (context) => DialogManager(
+                key: _key,
+                child: widget,
+              )),
+        ),
         theme: ThemeData(
-          
           primaryColor: PrimaryColor,
           floatingActionButtonTheme: FloatingActionButtonThemeData( backgroundColor: FloatingButtonPrimaryColor)
         
       ),
-         home:ESHomeView()
-         
+       
          
          
         

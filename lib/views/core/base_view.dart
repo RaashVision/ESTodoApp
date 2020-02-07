@@ -5,11 +5,15 @@ import 'dart:async';
 import 'package:flushbar/flushbar.dart';
 import 'package:flushbar/flushbar_helper.dart';
 import 'package:flutter/material.dart';
-import 'package:Etqa_smile/enums/viewstate.dart';
-import 'package:Etqa_smile/viewmodels/core/base_viewmodel.dart';
+import 'package:ESmile/enums/viewstate.dart';
+import 'package:ESmile/viewmodels/core/base_viewmodel.dart';
 import 'package:provider/provider.dart';
 
 import '../../locator.dart';
+
+/*
+BaseModel for the view to handle. Make it base to prevent duplicate code accross page
+ */
 
 class BaseView<T extends BaseViewModel> extends StatefulWidget {
   final Widget Function(BuildContext context, T model, Widget child) builder;
@@ -46,12 +50,6 @@ class _BaseViewState<T extends BaseViewModel> extends State<BaseView<T>> {
      setState(() {});
     }
 
-    Flushbar(
-                  title:  "Hey Ninjalove",
-                  message:  "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
-                  duration:  Duration(seconds: 3),              
-                )..show(context);
-   
   }
 
   @override

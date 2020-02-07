@@ -1,23 +1,87 @@
-import 'package:Etqa_smile/interfaces/i_mockdata.dart';
-import 'package:Etqa_smile/interfaces/i_repository.dart';
-import 'package:Etqa_smile/locator.dart';
-import 'package:Etqa_smile/models/channel_message_model.dart';
-import 'package:Etqa_smile/models/direct_message_model.dart';
+import 'package:ESmile/enums/viewstate.dart';
+import 'package:ESmile/interfaces/i_localdatabase.dart';
+import 'package:ESmile/interfaces/i_repository.dart';
+import 'package:ESmile/locator.dart';
+import 'package:ESmile/managers/stream_manager.dart';
+import 'package:ESmile/models/channel_message_model.dart';
+import 'package:ESmile/models/direct_message_model.dart';
+import 'package:ESmile/models/es_todo_model.dart';
+import 'package:ESmile/models/result.dart';
 
 class Repository implements IRepository{
 
-    IMockData iMockData = locator<IMockData>();
+
+
+    ILocalDatabase iLocalDb = locator<ILocalDatabase>();
+
+    StreamManager iStream = locator<StreamManager>();
+
+
 
   @override
-  Future<List<ChannelModel>> getHomeData() {
-   
-    return iMockData.getHomeDrawerListData();
+  Future<ResultAndStatus> deleteTodoRepo(ESTodoModel esTodoModel) async{
+    try{
+
+      var data =  await iLocalDb.deleteTodo(esTodoModel);
+
+      //publish to all subcriber that db have change
+      iStream.refreshWhenDbHaveChange().add(true);
+
+      return ResultAndStatus(ViewState.Idle, null, data);
+    }
+    catch(e){
+        return ResultAndStatus(ViewState.Error, e.toString(), null);
+    }
   }
 
   @override
-  Future<List<DirectMessageModel>> getDirectMessageData() async{
-    
-    return iMockData.getDirectMessageListData();
+  Future<ResultAndStatus> deleteallRepo() async{
+    try{
+      var data =  await iLocalDb.deleteall();
+      iStream.refreshWhenDbHaveChange().add(true);
+      return ResultAndStatus(ViewState.Idle, null, data);
+    }
+    catch(e){
+        return ResultAndStatus(ViewState.Error, e.toString(), null);
+    }
+  }
+
+  @override
+  Future<ResultAndStatus> insertTodoRepo(ESTodoModel esTodoModel) async{
+    try{
+
+      var data =  await iLocalDb.insertTodo(esTodoModel);
+      iStream.refreshWhenDbHaveChange().add(true);
+      return ResultAndStatus(ViewState.Idle, null, data);
+    }
+    catch(e){
+        return ResultAndStatus(ViewState.Error, e.toString(), null);
+    }
+  }
+
+  @override
+  Future<ResultAndStatus> updateTodoRepo(ESTodoModel esTodoModel) async{
+    try{
+
+      var data =  await iLocalDb.updateTodo(esTodoModel);
+      iStream.refreshWhenDbHaveChange().add(true);
+      return ResultAndStatus(ViewState.Idle, null, data);
+    }
+    catch(e){
+        return ResultAndStatus(ViewState.Error, e.toString(), null);
+    }
+  }
+
+  @override
+  Future<ResultAndStatus> getAllESTodoListRepo() async{
+    try{
+
+      var data =  await iLocalDb.getAllESTodoList();
+      return ResultAndStatus(ViewState.Idle, null, data);
+    }
+    catch(e){
+        return ResultAndStatus(ViewState.Error, e.toString(), null);
+    }
   }
 
 

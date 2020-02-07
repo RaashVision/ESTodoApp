@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:Etqa_smile/services/stoppable_service.dart';
+import 'package:ESmile/services/stoppable_service.dart';
 
 // https://www.filledstacks.com/post/flutter-application-life-cycle-management
 

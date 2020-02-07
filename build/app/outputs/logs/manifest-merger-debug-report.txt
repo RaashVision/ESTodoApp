@@ -1,232 +1,175 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/android/app/src/main/AndroidManifest.xml:1:1-33:12
-INJECTED from /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/android/app/src/main/AndroidManifest.xml:1:1-33:12
-INJECTED from /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/android/app/src/main/AndroidManifest.xml:1:1-33:12
-INJECTED from /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/android/app/src/main/AndroidManifest.xml:1:1-33:12
-MERGED from /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/android/app/src/main/AndroidManifest.xml:1:1-33:12
-MERGED from [:catcher] /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/build/catcher/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
-MERGED from [:fluttertoast] /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/build/fluttertoast/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
-MERGED from [:device_info] /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/build/device_info/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
-MERGED from [:package_info] /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/build/package_info/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
-MERGED from [:camera] /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/build/camera/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-10:12
-MERGED from [:path_provider] /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/build/path_provider/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
-MERGED from [:flutter_local_notifications] /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/build/flutter_local_notifications/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
-MERGED from [:image_picker] /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-22:12
-MERGED from [:flutter_mailer] /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/build/flutter_mailer/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-19:12
-MERGED from [:vibration] /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/build/vibration/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.fragment:fragment:1.0.0-rc01] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0-rc01.aar/6c9e21090e2716e685c4236a7344049a/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0-rc01] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0-rc01.aar/17460474e0e6311a5a491f8b08e0d1dc/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0-rc01] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0-rc01.aar/df6d537208dd20ff73106d870fb0bf6d/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0-rc01] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/loader-1.0.0-rc01.aar/23c804a7f105e91830be248159b25032/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0-rc01] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0-rc01.aar/1ca716074de0d5d31677e57148a20a3e/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0-rc01] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0-rc01.aar/b7909ca21dd1e12878b76198e0c70562/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0-rc01] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0-rc01.aar/094aed8e73629df289943194d3e09b8a/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0-rc01] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0-rc01.aar/c9c4ad2c59c89a8c67ec8a703f4247f2/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.0.0-rc01] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/customview-1.0.0-rc01.aar/bb3cf59571a45956f9856a54705b5736/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0-rc01] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0-rc01.aar/1aafa2a29cc4c0d9041bc71e1e9dadf3/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0-rc01] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0-rc01.aar/a4f9e72d1a0b4d405f808359f4e67706/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.0.1] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/1f37d31a7597a3ef813d31653e67ddd4/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/bf047d1dc980911c64741b24322079e3/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/4f19f30d7bc7ea0934378c703e765d52/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/4b32e7143f6d0d8e84d42bd381cb98da/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/d2983807439ed5eea636dcb03d4b3a91/AndroidManifest.xml:17:1-25:12
-MERGED from [androidx.interpolator:interpolator:1.0.0-rc01] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0-rc01.aar/80d5fe496578c2b950e90581bd4b15ef/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0-rc01] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0-rc01.aar/ac9952ed9245707eac0c022fca0bcdfa/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0-rc01] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0-rc01.aar/1ceb8a33fe3705ba7addeebcaae40519/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0-rc01] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0-rc01.aar/f2a6964d6b29109f03b98e0023baf908/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0-rc01] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/print-1.0.0-rc01.aar/419c800e17a0a6af20189c4b21cca7be/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/d397629e5b745aecdae6f2a40010dd6f/AndroidManifest.xml:17:1-22:12
-INJECTED from /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/android/app/src/debug/AndroidManifest.xml:1:1-9:12
-INJECTED from /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/android/app/src/debug/AndroidManifest.xml:1:1-9:12
-INJECTED from /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/android/app/src/debug/AndroidManifest.xml:1:1-9:12
+ADDED from C:\Github\ESTodoApp\android\app\src\main\AndroidManifest.xml:1:1-33:12
+INJECTED from C:\Github\ESTodoApp\android\app\src\main\AndroidManifest.xml:1:1-33:12
+INJECTED from C:\Github\ESTodoApp\android\app\src\main\AndroidManifest.xml:1:1-33:12
+INJECTED from C:\Github\ESTodoApp\android\app\src\main\AndroidManifest.xml:1:1-33:12
+MERGED from C:\Github\ESTodoApp\android\app\src\main\AndroidManifest.xml:1:1-33:12
+MERGED from [:catcher] C:\Github\ESTodoApp\build\catcher\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-7:12
+MERGED from [:fluttertoast] C:\Github\ESTodoApp\build\fluttertoast\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-7:12
+MERGED from [:device_info] C:\Github\ESTodoApp\build\device_info\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-7:12
+MERGED from [:package_info] C:\Github\ESTodoApp\build\package_info\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-7:12
+MERGED from [:camera] C:\Github\ESTodoApp\build\camera\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-10:12
+MERGED from [:path_provider] C:\Github\ESTodoApp\build\path_provider\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_local_notifications] C:\Github\ESTodoApp\build\flutter_local_notifications\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-7:12
+MERGED from [:image_picker] C:\Github\ESTodoApp\build\image_picker\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-22:12
+MERGED from [:flutter_mailer] C:\Github\ESTodoApp\build\flutter_mailer\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-19:12
+MERGED from [:vibration] C:\Github\ESTodoApp\build\vibration\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.core:core:1.0.1] C:\Users\David\.gradle\caches\transforms-1\files-1.1\core-1.0.1.aar\dfcf3fffef62db7c90e859dd583c13c5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\David\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\76742a2ddb91fea7b3ae257e98464fd3\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\David\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.0.0.aar\f480e370a4f57f5cec86b401dacfd13a\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Github\ESTodoApp\android\app\src\debug\AndroidManifest.xml:1:1-9:12
+INJECTED from C:\Github\ESTodoApp\android\app\src\debug\AndroidManifest.xml:1:1-9:12
+INJECTED from C:\Github\ESTodoApp\android\app\src\debug\AndroidManifest.xml:1:1-9:12
 	package
-		ADDED from /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/android/app/src/main/AndroidManifest.xml:2:5-44
-		INJECTED from /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/android/app/src/main/AndroidManifest.xml
-		INJECTED from /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/android/app/src/debug/AndroidManifest.xml
+		ADDED from C:\Github\ESTodoApp\android\app\src\main\AndroidManifest.xml:2:5-33
+		INJECTED from C:\Github\ESTodoApp\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Github\ESTodoApp\android\app\src\debug\AndroidManifest.xml
 	android:versionName
-		INJECTED from /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/android/app/src/main/AndroidManifest.xml
-		ADDED from /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/android/app/src/main/AndroidManifest.xml:1:1-33:12
-		INJECTED from /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/android/app/src/debug/AndroidManifest.xml
+		INJECTED from C:\Github\ESTodoApp\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Github\ESTodoApp\android\app\src\main\AndroidManifest.xml:1:1-33:12
+		INJECTED from C:\Github\ESTodoApp\android\app\src\debug\AndroidManifest.xml
 	android:versionCode
-		INJECTED from /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/android/app/src/main/AndroidManifest.xml
-		ADDED from /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/android/app/src/main/AndroidManifest.xml:1:1-33:12
-		INJECTED from /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/android/app/src/debug/AndroidManifest.xml
+		INJECTED from C:\Github\ESTodoApp\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Github\ESTodoApp\android\app\src\main\AndroidManifest.xml:1:1-33:12
+		INJECTED from C:\Github\ESTodoApp\android\app\src\debug\AndroidManifest.xml
 	xmlns:android
-		ADDED from /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/android/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from C:\Github\ESTodoApp\android\app\src\main\AndroidManifest.xml:1:11-69
 application
-ADDED from /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/android/app/src/main/AndroidManifest.xml:9:5-32:19
-MERGED from [:image_picker] /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:10:5-20:19
-MERGED from [:image_picker] /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:10:5-20:19
-MERGED from [:flutter_mailer] /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/build/flutter_mailer/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-17:19
-MERGED from [:flutter_mailer] /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/build/flutter_mailer/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-17:19
-MERGED from [androidx.core:core:1.0.1] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/1f37d31a7597a3ef813d31653e67ddd4/AndroidManifest.xml:22:5-89
-MERGED from [androidx.core:core:1.0.1] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/1f37d31a7597a3ef813d31653e67ddd4/AndroidManifest.xml:22:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/d2983807439ed5eea636dcb03d4b3a91/AndroidManifest.xml:22:5-23:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/d2983807439ed5eea636dcb03d4b3a91/AndroidManifest.xml:22:5-23:19
+ADDED from C:\Github\ESTodoApp\android\app\src\main\AndroidManifest.xml:9:5-32:19
+MERGED from [:image_picker] C:\Github\ESTodoApp\build\image_picker\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:10:5-20:19
+MERGED from [:image_picker] C:\Github\ESTodoApp\build\image_picker\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:10:5-20:19
+MERGED from [:flutter_mailer] C:\Github\ESTodoApp\build\flutter_mailer\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-17:19
+MERGED from [:flutter_mailer] C:\Github\ESTodoApp\build\flutter_mailer\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-17:19
+MERGED from [androidx.core:core:1.0.1] C:\Users\David\.gradle\caches\transforms-1\files-1.1\core-1.0.1.aar\dfcf3fffef62db7c90e859dd583c13c5\AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.1] C:\Users\David\.gradle\caches\transforms-1\files-1.1\core-1.0.1.aar\dfcf3fffef62db7c90e859dd583c13c5\AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\David\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\76742a2ddb91fea7b3ae257e98464fd3\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\David\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\76742a2ddb91fea7b3ae257e98464fd3\AndroidManifest.xml:22:5-23:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.0.1] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/1f37d31a7597a3ef813d31653e67ddd4/AndroidManifest.xml:22:18-86
+		ADDED from [androidx.core:core:1.0.1] C:\Users\David\.gradle\caches\transforms-1\files-1.1\core-1.0.1.aar\dfcf3fffef62db7c90e859dd583c13c5\AndroidManifest.xml:22:18-86
 	android:label
-		ADDED from /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/android/app/src/main/AndroidManifest.xml:11:9-42
+		ADDED from C:\Github\ESTodoApp\android\app\src\main\AndroidManifest.xml:11:9-31
 	android:icon
-		ADDED from /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/android/app/src/main/AndroidManifest.xml:12:9-42
+		ADDED from C:\Github\ESTodoApp\android\app\src\main\AndroidManifest.xml:12:9-35
 	android:name
-		ADDED from /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/android/app/src/main/AndroidManifest.xml:10:9-57
-activity#com.example.Etqa_smile.MainActivity
-ADDED from /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/android/app/src/main/AndroidManifest.xml:13:9-31:20
+		ADDED from C:\Github\ESTodoApp\android\app\src\main\AndroidManifest.xml:10:9-57
+activity#com.example.ESmile.MainActivity
+ADDED from C:\Github\ESTodoApp\android\app\src\main\AndroidManifest.xml:13:9-31:20
 	android:launchMode
-		ADDED from /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/android/app/src/main/AndroidManifest.xml:15:13-43
+		ADDED from C:\Github\ESTodoApp\android\app\src\main\AndroidManifest.xml:15:13-43
 	android:hardwareAccelerated
-		ADDED from /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/android/app/src/main/AndroidManifest.xml:18:13-47
+		ADDED from C:\Github\ESTodoApp\android\app\src\main\AndroidManifest.xml:18:13-47
 	android:windowSoftInputMode
-		ADDED from /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/android/app/src/main/AndroidManifest.xml:19:13-55
+		ADDED from C:\Github\ESTodoApp\android\app\src\main\AndroidManifest.xml:19:13-55
 	android:configChanges
-		ADDED from /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/android/app/src/main/AndroidManifest.xml:17:13-144
+		ADDED from C:\Github\ESTodoApp\android\app\src\main\AndroidManifest.xml:17:13-144
 	android:theme
-		ADDED from /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/android/app/src/main/AndroidManifest.xml:16:13-47
+		ADDED from C:\Github\ESTodoApp\android\app\src\main\AndroidManifest.xml:16:13-47
 	android:name
-		ADDED from /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/android/app/src/main/AndroidManifest.xml:14:13-41
+		ADDED from C:\Github\ESTodoApp\android\app\src\main\AndroidManifest.xml:14:13-41
 meta-data#io.flutter.app.android.SplashScreenUntilFirstFrame
-ADDED from /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/android/app/src/main/AndroidManifest.xml:24:13-26:40
+ADDED from C:\Github\ESTodoApp\android\app\src\main\AndroidManifest.xml:24:13-26:40
 	android:value
-		ADDED from /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/android/app/src/main/AndroidManifest.xml:26:17-37
+		ADDED from C:\Github\ESTodoApp\android\app\src\main\AndroidManifest.xml:26:17-37
 	android:name
-		ADDED from /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/android/app/src/main/AndroidManifest.xml:25:17-82
+		ADDED from C:\Github\ESTodoApp\android\app\src\main\AndroidManifest.xml:25:17-82
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/android/app/src/main/AndroidManifest.xml:27:13-30:29
+ADDED from C:\Github\ESTodoApp\android\app\src\main\AndroidManifest.xml:27:13-30:29
 action#android.intent.action.MAIN
-ADDED from /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/android/app/src/main/AndroidManifest.xml:28:17-68
+ADDED from C:\Github\ESTodoApp\android\app\src\main\AndroidManifest.xml:28:17-68
 	android:name
-		ADDED from /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/android/app/src/main/AndroidManifest.xml:28:25-66
+		ADDED from C:\Github\ESTodoApp\android\app\src\main\AndroidManifest.xml:28:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/android/app/src/main/AndroidManifest.xml:29:17-76
+ADDED from C:\Github\ESTodoApp\android\app\src\main\AndroidManifest.xml:29:17-76
 	android:name
-		ADDED from /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/android/app/src/main/AndroidManifest.xml:29:27-74
+		ADDED from C:\Github\ESTodoApp\android\app\src\main\AndroidManifest.xml:29:27-74
 uses-sdk
-INJECTED from /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/android/app/src/main/AndroidManifest.xml
-INJECTED from /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/android/app/src/main/AndroidManifest.xml
-MERGED from [:catcher] /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/build/catcher/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
-MERGED from [:catcher] /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/build/catcher/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
-MERGED from [:fluttertoast] /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/build/fluttertoast/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
-MERGED from [:fluttertoast] /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/build/fluttertoast/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
-MERGED from [:device_info] /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/build/device_info/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
-MERGED from [:device_info] /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/build/device_info/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
-MERGED from [:package_info] /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/build/package_info/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
-MERGED from [:package_info] /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/build/package_info/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
-MERGED from [:camera] /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/build/camera/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
-MERGED from [:camera] /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/build/camera/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
-MERGED from [:path_provider] /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/build/path_provider/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
-MERGED from [:path_provider] /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/build/path_provider/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
-MERGED from [:flutter_local_notifications] /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/build/flutter_local_notifications/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
-MERGED from [:flutter_local_notifications] /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/build/flutter_local_notifications/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
-MERGED from [:image_picker] /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
-MERGED from [:image_picker] /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
-MERGED from [:flutter_mailer] /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/build/flutter_mailer/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
-MERGED from [:flutter_mailer] /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/build/flutter_mailer/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
-MERGED from [:vibration] /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/build/vibration/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
-MERGED from [:vibration] /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/build/vibration/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
-MERGED from [androidx.fragment:fragment:1.0.0-rc01] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0-rc01.aar/6c9e21090e2716e685c4236a7344049a/AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.0.0-rc01] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0-rc01.aar/6c9e21090e2716e685c4236a7344049a/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0-rc01] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0-rc01.aar/17460474e0e6311a5a491f8b08e0d1dc/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0-rc01] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0-rc01.aar/17460474e0e6311a5a491f8b08e0d1dc/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0-rc01] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0-rc01.aar/df6d537208dd20ff73106d870fb0bf6d/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0-rc01] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0-rc01.aar/df6d537208dd20ff73106d870fb0bf6d/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0-rc01] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/loader-1.0.0-rc01.aar/23c804a7f105e91830be248159b25032/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0-rc01] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/loader-1.0.0-rc01.aar/23c804a7f105e91830be248159b25032/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0-rc01] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0-rc01.aar/1ca716074de0d5d31677e57148a20a3e/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0-rc01] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0-rc01.aar/1ca716074de0d5d31677e57148a20a3e/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0-rc01] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0-rc01.aar/b7909ca21dd1e12878b76198e0c70562/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0-rc01] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0-rc01.aar/b7909ca21dd1e12878b76198e0c70562/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0-rc01] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0-rc01.aar/094aed8e73629df289943194d3e09b8a/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0-rc01] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0-rc01.aar/094aed8e73629df289943194d3e09b8a/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0-rc01] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0-rc01.aar/c9c4ad2c59c89a8c67ec8a703f4247f2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0-rc01] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0-rc01.aar/c9c4ad2c59c89a8c67ec8a703f4247f2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0-rc01] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/customview-1.0.0-rc01.aar/bb3cf59571a45956f9856a54705b5736/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0-rc01] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/customview-1.0.0-rc01.aar/bb3cf59571a45956f9856a54705b5736/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0-rc01] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0-rc01.aar/1aafa2a29cc4c0d9041bc71e1e9dadf3/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0-rc01] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0-rc01.aar/1aafa2a29cc4c0d9041bc71e1e9dadf3/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0-rc01] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0-rc01.aar/a4f9e72d1a0b4d405f808359f4e67706/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0-rc01] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0-rc01.aar/a4f9e72d1a0b4d405f808359f4e67706/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.0.1] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/1f37d31a7597a3ef813d31653e67ddd4/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.0.1] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/1f37d31a7597a3ef813d31653e67ddd4/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/bf047d1dc980911c64741b24322079e3/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/bf047d1dc980911c64741b24322079e3/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/4f19f30d7bc7ea0934378c703e765d52/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/4f19f30d7bc7ea0934378c703e765d52/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/4b32e7143f6d0d8e84d42bd381cb98da/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/4b32e7143f6d0d8e84d42bd381cb98da/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/d2983807439ed5eea636dcb03d4b3a91/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/d2983807439ed5eea636dcb03d4b3a91/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0-rc01] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0-rc01.aar/80d5fe496578c2b950e90581bd4b15ef/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0-rc01] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0-rc01.aar/80d5fe496578c2b950e90581bd4b15ef/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0-rc01] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0-rc01.aar/ac9952ed9245707eac0c022fca0bcdfa/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0-rc01] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0-rc01.aar/ac9952ed9245707eac0c022fca0bcdfa/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0-rc01] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0-rc01.aar/1ceb8a33fe3705ba7addeebcaae40519/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0-rc01] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0-rc01.aar/1ceb8a33fe3705ba7addeebcaae40519/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0-rc01] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0-rc01.aar/f2a6964d6b29109f03b98e0023baf908/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0-rc01] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0-rc01.aar/f2a6964d6b29109f03b98e0023baf908/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0-rc01] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/print-1.0.0-rc01.aar/419c800e17a0a6af20189c4b21cca7be/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0-rc01] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/print-1.0.0-rc01.aar/419c800e17a0a6af20189c4b21cca7be/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/d397629e5b745aecdae6f2a40010dd6f/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/thiyraash96/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/d397629e5b745aecdae6f2a40010dd6f/AndroidManifest.xml:20:5-44
-INJECTED from /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/android/app/src/debug/AndroidManifest.xml
-INJECTED from /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/android/app/src/debug/AndroidManifest.xml
+INJECTED from C:\Github\ESTodoApp\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Github\ESTodoApp\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Github\ESTodoApp\android\app\src\main\AndroidManifest.xml
+MERGED from [:catcher] C:\Github\ESTodoApp\build\catcher\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:catcher] C:\Github\ESTodoApp\build\catcher\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:fluttertoast] C:\Github\ESTodoApp\build\fluttertoast\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:fluttertoast] C:\Github\ESTodoApp\build\fluttertoast\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:device_info] C:\Github\ESTodoApp\build\device_info\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:device_info] C:\Github\ESTodoApp\build\device_info\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:package_info] C:\Github\ESTodoApp\build\package_info\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:package_info] C:\Github\ESTodoApp\build\package_info\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:camera] C:\Github\ESTodoApp\build\camera\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:camera] C:\Github\ESTodoApp\build\camera\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] C:\Github\ESTodoApp\build\path_provider\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] C:\Github\ESTodoApp\build\path_provider\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_local_notifications] C:\Github\ESTodoApp\build\flutter_local_notifications\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_local_notifications] C:\Github\ESTodoApp\build\flutter_local_notifications\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] C:\Github\ESTodoApp\build\image_picker\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] C:\Github\ESTodoApp\build\image_picker\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_mailer] C:\Github\ESTodoApp\build\flutter_mailer\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_mailer] C:\Github\ESTodoApp\build\flutter_mailer\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:vibration] C:\Github\ESTodoApp\build\vibration\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:vibration] C:\Github\ESTodoApp\build\vibration\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core:1.0.1] C:\Users\David\.gradle\caches\transforms-1\files-1.1\core-1.0.1.aar\dfcf3fffef62db7c90e859dd583c13c5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] C:\Users\David\.gradle\caches\transforms-1\files-1.1\core-1.0.1.aar\dfcf3fffef62db7c90e859dd583c13c5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\David\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\76742a2ddb91fea7b3ae257e98464fd3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\David\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\76742a2ddb91fea7b3ae257e98464fd3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\David\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.0.0.aar\f480e370a4f57f5cec86b401dacfd13a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\David\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.0.0.aar\f480e370a4f57f5cec86b401dacfd13a\AndroidManifest.xml:20:5-44
+INJECTED from C:\Github\ESTodoApp\android\app\src\debug\AndroidManifest.xml
+INJECTED from C:\Github\ESTodoApp\android\app\src\debug\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/android/app/src/main/AndroidManifest.xml
-		INJECTED from /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/android/app/src/debug/AndroidManifest.xml
+		INJECTED from C:\Github\ESTodoApp\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Github\ESTodoApp\android\app\src\debug\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/android/app/src/main/AndroidManifest.xml
-		INJECTED from /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/android/app/src/debug/AndroidManifest.xml
+		INJECTED from C:\Github\ESTodoApp\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Github\ESTodoApp\android\app\src\debug\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/android/app/src/debug/AndroidManifest.xml:6:5-66
+ADDED from C:\Github\ESTodoApp\android\app\src\debug\AndroidManifest.xml:6:5-66
 	android:name
-		ADDED from /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/android/app/src/debug/AndroidManifest.xml:6:22-64
+		ADDED from C:\Github\ESTodoApp\android\app\src\debug\AndroidManifest.xml:6:22-64
 uses-permission#android.permission.VIBRATE
-ADDED from /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/android/app/src/debug/AndroidManifest.xml:7:5-65
-MERGED from [:vibration] /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/build/vibration/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-66
-MERGED from [:vibration] /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/build/vibration/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-66
+ADDED from C:\Github\ESTodoApp\android\app\src\debug\AndroidManifest.xml:7:5-65
+MERGED from [:vibration] C:\Github\ESTodoApp\build\vibration\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-66
+MERGED from [:vibration] C:\Github\ESTodoApp\build\vibration\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-66
 	android:name
-		ADDED from /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/android/app/src/debug/AndroidManifest.xml:7:22-63
+		ADDED from C:\Github\ESTodoApp\android\app\src\debug\AndroidManifest.xml:7:22-63
 uses-permission#android.permission.CAMERA
-ADDED from [:camera] /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/build/camera/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-65
+ADDED from [:camera] C:\Github\ESTodoApp\build\camera\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-65
 	android:name
-		ADDED from [:camera] /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/build/camera/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:22-62
+		ADDED from [:camera] C:\Github\ESTodoApp\build\camera\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:22-62
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from [:camera] /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/build/camera/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:8:5-71
+ADDED from [:camera] C:\Github\ESTodoApp\build\camera\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:8:5-71
 	android:name
-		ADDED from [:camera] /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/build/camera/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:8:22-68
+		ADDED from [:camera] C:\Github\ESTodoApp\build\camera\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:8:22-68
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from [:image_picker] /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-80
+ADDED from [:image_picker] C:\Github\ESTodoApp\build\image_picker\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-80
 	android:name
-		ADDED from [:image_picker] /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:22-77
+		ADDED from [:image_picker] C:\Github\ESTodoApp\build\image_picker\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from [:image_picker] /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:8:5-81
+ADDED from [:image_picker] C:\Github\ESTodoApp\build\image_picker\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:8:5-81
 	android:name
-		ADDED from [:image_picker] /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:8:22-78
+		ADDED from [:image_picker] C:\Github\ESTodoApp\build\image_picker\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:8:22-78
 provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
-ADDED from [:image_picker] /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:9-19:20
+ADDED from [:image_picker] C:\Github\ESTodoApp\build\image_picker\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:9-19:20
 	android:grantUriPermissions
-		ADDED from [:image_picker] /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:15:13-47
+		ADDED from [:image_picker] C:\Github\ESTodoApp\build\image_picker\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:15:13-47
 	android:authorities
-		ADDED from [:image_picker] /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:13:13-74
+		ADDED from [:image_picker] C:\Github\ESTodoApp\build\image_picker\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:13:13-74
 	android:exported
-		ADDED from [:image_picker] /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:14:13-37
+		ADDED from [:image_picker] C:\Github\ESTodoApp\build\image_picker\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:14:13-37
 	android:name
-		ADDED from [:image_picker] /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:12:13-82
+		ADDED from [:image_picker] C:\Github\ESTodoApp\build\image_picker\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:12:13-82
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from [:image_picker] /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:16:13-18:75
+ADDED from [:image_picker] C:\Github\ESTodoApp\build\image_picker\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:16:13-18:75
 	android:resource
-		ADDED from [:image_picker] /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:18:17-72
+		ADDED from [:image_picker] C:\Github\ESTodoApp\build\image_picker\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:18:17-72
 	android:name
-		ADDED from [:image_picker] /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:17:17-67
+		ADDED from [:image_picker] C:\Github\ESTodoApp\build\image_picker\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:17:17-67
 provider#com.dataxad.fluttermailer.FlutterMailerFileProvider
-ADDED from [:flutter_mailer] /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/build/flutter_mailer/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:8:9-16:20
+ADDED from [:flutter_mailer] C:\Github\ESTodoApp\build\flutter_mailer\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:8:9-16:20
 	android:grantUriPermissions
-		ADDED from [:flutter_mailer] /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/build/flutter_mailer/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:12:13-47
+		ADDED from [:flutter_mailer] C:\Github\ESTodoApp\build\flutter_mailer\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:12:13-47
 	android:authorities
-		ADDED from [:flutter_mailer] /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/build/flutter_mailer/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:10:13-64
+		ADDED from [:flutter_mailer] C:\Github\ESTodoApp\build\flutter_mailer\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:10:13-64
 	android:exported
-		ADDED from [:flutter_mailer] /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/build/flutter_mailer/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:13-37
+		ADDED from [:flutter_mailer] C:\Github\ESTodoApp\build\flutter_mailer\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:13-37
 	android:name
-		ADDED from [:flutter_mailer] /media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/build/flutter_mailer/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:9:13-79
+		ADDED from [:flutter_mailer] C:\Github\ESTodoApp\build\flutter_mailer\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:9:13-79

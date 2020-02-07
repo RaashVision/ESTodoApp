@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/media/thiyraash96/D/development/flutter/provider/Flutter own project/RV_RESTAPI/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-km/values-km.xml",
+            "outputFile": "C:\\Github\\ESTodoApp\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-km\\values-km.xml",
             "map": [
                 {
-                    "source": "/home/thiyraash96/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/1f37d31a7597a3ef813d31653e67ddd4/res/values-km/values-km.xml",
+                    "source": "C:\\Users\\David\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.0.1.aar\\dfcf3fffef62db7c90e859dd583c13c5\\res\\values-km\\values-km.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

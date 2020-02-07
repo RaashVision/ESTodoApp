@@ -1,4 +1,4 @@
-# Etqa_smile
+# ESmile
 
 This is the Google Lens clone app built in Flutter. Only about 60% clone. Just UI clone, not functionality.
 

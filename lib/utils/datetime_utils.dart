@@ -1,7 +1,9 @@
+import 'package:ESmile/interfaces/i_datetimeutil.dart';
 import 'package:intl/intl.dart';
 
-class DateTimeUtils
+class DateTimeUtils implements IDateTimeUtils
 {
+
 
   String SlackTimeAgo(DateTime currentdatetime, DateTime seconddatetime){
 
@@ -53,6 +55,20 @@ class DateTimeUtils
 
     return DateTime.now();
   }
+
+  @override
+  DateTime ConvertStringToDateTime(String date) {
+     try {
+      var d = new DateFormat('dd-MM-yyyy').parse(date);
+      return d;
+    } catch (e) {
+      return null;
+    }
+  }
+
+
+
+  
 
 
 }
