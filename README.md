@@ -1,26 +1,37 @@
-# ESmile
+# ESmile TodoApp
 
-This is the Google Lens clone app built in Flutter. Only about 60% clone. Just UI clone, not functionality.
+This is the ESTodo app built in Flutter. Use Provider as State Management. Have local storage to store all your TodoList
 
 ## Screenshots
 
-![rsz_1screenshot_20191218-165835](https://user-images.githubusercontent.com/14199227/71072330-3a5c1100-21b9-11ea-8378-d89066f7fda6.jpg)  --![rsz_screenshot_20191218-165859](https://user-images.githubusercontent.com/14199227/71072567-c53d0b80-21b9-11ea-82e8-482acdeb5927.jpg) 
+![screenshot_20200207-212035(1)](https://user-images.githubusercontent.com/14199227/74034569-837b5500-49f3-11ea-9eb7-bb859fef3b0a.jpg)
+![screenshot_20200207-212350(1)](https://user-images.githubusercontent.com/14199227/74034583-8f671700-49f3-11ea-84f1-aa14815c29b5.jpg)
+![screenshot_20200207-212207(1)](https://user-images.githubusercontent.com/14199227/74034602-98f07f00-49f3-11ea-8217-68b787956a5c.jpg)
+
+
 
 ## GIF
 
-![gif](https://user-images.githubusercontent.com/14199227/71096968-35638580-21ea-11ea-9eea-5c2d0f76f033.gif)
+![ezgif com-video-to-gif](https://user-images.githubusercontent.com/14199227/74035190-c4279e00-49f4-11ea-9e94-8573ea2085e1.gif)
 
+
+Design Architecture
+- MVVM (Model-View-Viewmodel)
+
+State Management
+- Provider
 
 Library used
-  - BottomSheet - https://pub.dev/documentation/rubber/latest/
-  - Animation - https://pub.dev/documentation/simple_animations/latest/
+  - SembastNoSQL - https://pub.dev/packages/sembast
+  - RFAlert - https://pub.dev/packages/rflutter_alert
   - Vibration - https://pub.dev/documentation/vibration/latest/
-  - Swipeble bottom tabbar - https://pub.dev/documentation/carousel_slider/latest/
   - ImageGrid - https://pub.dev/documentation/flutter_staggered_grid_view/latest/
   - Provider -https://pub.dev/documentation/provider/latest/
-  - camera - https://pub.dev/documentation/camera/latest/
+  - FlushBar - https://pub.dev/packages/flushbar
+  
+  
+TODO (Not yet done)
+1. Unit Testing
+2. Integration Testing
+3. CI
 
-Guideline
-  - https://www.filledstacks.com/post/flutter-architecture-my-provider-implementation-guide/
-  -  https://medium.com/@felixblaschke/particle-animations-with-flutter-756a23dba027
-  -  https://www.raywenderlich.com/4333657-using-the-camera-on-flutter
