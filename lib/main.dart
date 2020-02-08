@@ -1,22 +1,28 @@
 
 import 'package:ESmile/managers/dialog_manager.dart';
+import 'package:dart_amqp/dart_amqp.dart';
 import 'package:flutter/material.dart';
 import 'package:ESmile/managers/lifecycle_manager.dart';
 import 'package:ESmile/views/shared/app_colors.dart';
 import 'package:flutter/services.dart';
 
+import 'interfaces/i_messagebroker.dart';
 import 'locator.dart';
 import 'services/navigation_service.dart';
 import 'package:ESmile/constants/route_paths.dart' as routes;
 import 'package:ESmile/router.dart' as router;
 
 
-void main() {
+void main() async{
 
   WidgetsFlutterBinding.ensureInitialized();
 
   //Dependecy injectiion
   setupLocator();
+
+   locator<IMessageBroker>().initSetup("lovequeue");
+
+   
 
   //This to lock the app in potrait mode. Only handle landscape 80%
     SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp])
