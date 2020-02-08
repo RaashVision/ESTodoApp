@@ -3,6 +3,7 @@ import 'package:ESmile/interfaces/i_datetimeutil.dart';
 import 'package:ESmile/repository/local_db/sembast_nosql/estodo_dao.dart';
 import 'package:ESmile/services/dialog_service.dart';
 import 'package:ESmile/services/navigation_service.dart';
+import 'package:ESmile/services/rabbitmq_service.dart';
 import 'package:ESmile/utils/validator_utils.dart';
 import 'package:ESmile/viewmodels/es_addupdatetodo_viewmodel.dart';
 import 'package:ESmile/viewmodels/es_timeleft_viewmodel.dart';
@@ -13,6 +14,7 @@ import 'package:ESmile/services/services.dart';
 import 'package:ESmile/services/vibration_services.dart';
 import 'package:ESmile/utils/datetime_utils.dart';
 import 'interfaces/i_localdatabase.dart';
+import 'interfaces/i_messagebroker.dart';
 import 'interfaces/i_repository.dart';
 import 'interfaces/i_validator.dart';
 import 'managers/stream_manager.dart';
@@ -37,5 +39,6 @@ locator.registerLazySingleton<IValidator>(()=> new ValidatorUtils());
 locator.registerLazySingleton<IDateTimeUtils>(()=> new DateTimeUtils());
 locator.registerLazySingleton(()=>StreamManager());
 locator.registerLazySingleton(() => DialogService());
+locator.registerLazySingleton<IMessageBroker>(()=> new RabbitMQService());
   
-}
+} 

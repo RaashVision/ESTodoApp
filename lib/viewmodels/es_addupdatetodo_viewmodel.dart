@@ -1,10 +1,12 @@
 
 import 'package:ESmile/enums/viewstate.dart';
 import 'package:ESmile/interfaces/i_datetimeutil.dart';
+import 'package:ESmile/interfaces/i_messagebroker.dart';
 import 'package:ESmile/interfaces/i_repository.dart';
 import 'package:ESmile/managers/stream_manager.dart';
 import 'package:ESmile/models/es_todo_model.dart';
 import 'package:ESmile/services/navigation_service.dart';
+import 'package:ESmile/services/rabbitmq_service.dart';
 import 'package:ESmile/viewmodels/core/base_viewmodel.dart';
 
 
@@ -15,8 +17,9 @@ class ESAddUpdateTodoViewModel extends BaseViewModel{
    IRepository iRepository = locator<IRepository>();
    IDateTimeUtils iDateTimeUtils = locator<IDateTimeUtils>();
    NavigationService _navigationService = locator<NavigationService>();
-
    StreamManager _streamManager = locator<StreamManager>();
+
+   IMessageBroker _iMessageBroker = locator<IMessageBroker>();
 
    void getDefaultData() async{
 
@@ -26,6 +29,22 @@ class ESAddUpdateTodoViewModel extends BaseViewModel{
     
 
    }
+
+
+    void onSendMessage(String title, String startdatestring, String enddateString) async{
+
+     
+      _iMessageBroker.sendMessage(title);
+
+
+
+
+
+    }
+
+
+
+
 
    void onSaveAsync(String title, String startdatestring, String enddateString) async
    {
