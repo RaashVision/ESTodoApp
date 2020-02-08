@@ -139,7 +139,7 @@ class _ESState extends State<ESAddUpdateTodoView> {
 
         //IF Add page Inser to database
         if(widget.isAdd){
-            viewModel.onSendMessage(_titleController.value.text,_dateofstartController.value.text, _dateofendController.value.text);
+            viewModel.onSaveAsync(_titleController.value.text,_dateofstartController.value.text, _dateofendController.value.text);
         }
         //Else update the datanbase
         else{
